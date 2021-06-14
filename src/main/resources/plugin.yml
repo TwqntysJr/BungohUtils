@@ -1,0 +1,6 @@
+name: BungohUtils
+version: ${project.version}
+main: com.bungoh.bungohutils.BungohUtils
+api-version: 1.17
+authors: [ Bungoh ]
+description: Utility Library for Spigot
