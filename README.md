@@ -1,6 +1,6 @@
 # BungohUtils
 
-[![GitHub version](https://badge.fury.io/gh/Bungoh%2FBungohUtils.svg)](https://badge.fury.io/gh/Bungoh%2FBungohUtils)
+![GitHub version](https://img.shields.io/github/v/tag/Bungoh/BungohUtils)
 
 BungohUtils is a WIP utility library for Spigot.
 
