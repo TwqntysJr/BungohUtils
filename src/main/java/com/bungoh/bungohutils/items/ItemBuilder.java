@@ -2,6 +2,7 @@ package com.bungoh.bungohutils.items;
 
 import com.bungoh.bungohutils.chat.Chat;
 import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -49,6 +50,28 @@ public class ItemBuilder {
      */
     public ItemBuilder setAmount(int amount) {
         item.setAmount(amount);
+        return this;
+    }
+
+    /**
+     * Add a safe Enchantment to the ItemBuilder.
+     * @param enchantment The Enchantment.
+     * @param level The level of the Enchantment.
+     * @return The ItemBuilder for further modification.
+     */
+    public ItemBuilder addEnchant(Enchantment enchantment, int level) {
+        item.addEnchantment(enchantment, level);
+        return this;
+    }
+
+    /**
+     * Add an unsafe Enchantment to the ItemBuilder.
+     * @param enchantment The Enchantment.
+     * @param level The level of the Enchantment.
+     * @return The ItemBuilder for further modification.
+     */
+    public ItemBuilder addUnsafeEnchantment(Enchantment enchantment, int level) {
+        item.addUnsafeEnchantment(enchantment, level);
         return this;
     }
 
